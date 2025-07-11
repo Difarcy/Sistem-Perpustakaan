@@ -1,0 +1,81 @@
+.image{
+    height: 50px;
+}
+
+.table>tbody>tr *{
+    vertical-align: middle;
+}
+.judul {
+    width: 600px;
+    overflow: hidden;
+}
+
+#coverName{
+    overflow: hidden;
+}
+
+.image-detail{
+    object-fit: scale-down;
+    height: 200px;
+}
+
+.judul_peminjaman{
+    width: 430px;
+    overflow-wrap: normal;
+}
+
+.Peminjaman_nama{
+    width: 190px;
+    overflow-wrap: normal;
+}
+
+/* Sidebar collapsed state */
+#sidebarNav.collapsed {
+  width: 60px !important;
+  transition: width 0.2s;
+}
+#sidebarNav.collapsed .nav-link span {
+  display: none;
+}
+#sidebarNav.collapsed .nav-item.text-center {
+  justify-content: center;
+}
+#sidebarNav.collapsed .nav-link {
+  text-align: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  justify-content: center !important;
+  align-items: center !important;
+  display: flex !important;
+  gap: 0 !important;
+}
+#sidebarNav.collapsed .nav-link i {
+  margin-right: 0 !important;
+  font-size: 1.5rem !important;
+}
+#sidebarNav .nav-link i {
+  font-size: 1.5rem !important;
+}
+#sidebarNav.collapsed .nav-item.text-center .nav-link {
+  justify-content: center !important;
+}
+#sidebarNav.collapsed .nav-item.text-center .nav-link span {
+  display: none !important;
+}
+#sidebarNav .nav-item.brand {
+  padding-left: 1rem;
+}
+#sidebarNav.collapsed .nav-item.brand {
+  justify-content: center !important;
+  padding-left: 0 !important;
+}
+#sidebarNav.collapsed .nav-item.brand .nav-link {
+  justify-content: center !important;
+}
+#sidebarNav.collapsed .nav-item.brand .nav-link i {
+  margin-right: 0 !important;
+  display: block;
+}
+#sidebarNav.collapsed .nav-item.brand .nav-link span {
+  display: none !important;
+}
